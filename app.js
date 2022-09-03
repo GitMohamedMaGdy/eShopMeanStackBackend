@@ -45,6 +45,6 @@ mongoose
     console.log(err);
   });
 const port = process.env.PORT || 3000
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
   console.log("server is running http://localhost:" + port);
 });
